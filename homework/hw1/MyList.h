@@ -1,9 +1,3 @@
-/*
-NAME: Chaoyun Ma
-SID: 605275
-DATE: 04/13/2015 
-*/
-
 #ifndef __MYLIST_H__
 #define __MYLIST_H__
 #include <iostream>
