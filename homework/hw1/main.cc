@@ -1,9 +1,3 @@
-/*
-NAME: Chaoyun Ma
-SID: 605275
-DATE: 04/13/2015 
-*/
-
 #include <iostream>
 #include <string.h>
 #include "MyList.h"
