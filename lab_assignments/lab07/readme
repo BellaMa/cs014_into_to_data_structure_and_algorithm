@@ -1,0 +1,17 @@
+// chaoyun ma
+// 605275
+// lab 7
+
+        advantage               disadvantage
+Hash  generally,               in worst case, 
+      faster in inserting     everyting is slow
+      faster in looking-up
+      
+      
+tree  generally,               in worst case,
+      slower in inserting      better than Hashing at inserting and looking-up
+      slower in looking-up
+      
+
+
+

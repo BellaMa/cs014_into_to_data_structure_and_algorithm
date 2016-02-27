@@ -1,0 +1,30 @@
+#question 2
+#part a
+
+My selectionsort function is stable.
+
+The function won't swap two elements (a, b) unless it satifies the following:
+1) the b is the smallest value in the rest of the array
+2) a != b
+
+By doing this, same value won't be swapped.
+
+
+#part b
+
+    cout << "stability: " << endl;
+    vector<int> test3 = {1, 1, 1, 1, 1};
+    cout << "pre: ";
+    for(auto i = test3.begin(); i != test3.end(); ++i)
+        cout << *i << " ";
+    cout << endl ;
+    
+    selectionsort(test3);
+    
+    cout << "post: ";
+    for(auto i = test3.begin(); i != test3.end(); ++i)
+        cout << *i << " ";
+    cout << endl ;
+    
+The result is that no elements were moved, which proves the selectionsort function 
+is stable.
